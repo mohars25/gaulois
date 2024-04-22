@@ -3,6 +3,7 @@ FROM Lieu
 WHERE nom_lieu LIKE '%um'
 
 
+
 2.SELECT L.nom_lieu, COUNT(*) AS nombre_personnages
 FROM Personnage P
 JOIN Lieu L ON P.id_lieu = L.id_lieu
