@@ -10,7 +10,7 @@ FROM Personnage P
 JOIN Lieu L ON P.id_lieu = L.id_lieu
 GROUP BY L.nom_lieu
 ORDER BY nombre_personnages DESC;
-
+   
 3.SELECT p.nom_personnage, s.nom_specialite, p.adresse_personnage ,l.nom_lieu
 FROM specialite s
 INNER JOIN personnage p 
