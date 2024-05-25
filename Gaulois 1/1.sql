@@ -5,7 +5,6 @@ WHERE nom_lieu LIKE '%um'
 
 
 
-	
 
 2.SELECT L.nom_lieu, COUNT(*) AS nombre_personnages
 FROM Personnage P
